@@ -7,6 +7,7 @@ Gerenciador básico para instalação e ativação do xamp em servidores linux.
 <p>sudo chmod 755 server2</p>
 <p>Executar: ./server</p>
 
+# Tela Principal:
 <p>
-<img src="https://imgur.com/1xGQbXH" alt="Tela principal" />
+<img src="https://i.imgur.com/1xGQbXH.png" alt="Tela principal" />
 </p>
