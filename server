@@ -7,7 +7,7 @@ cidade=$(whiptail --title "SERVER CONTROL" --radiolist --cancel-button "Sair" --
 "4" "Abrir Pastas de configuração" OFF \
 "5" "Instalar complemento" OFF \
 "6" "Desligar o sistema" OFF \
-"7" "Reiciciar o sistema" OFF \
+"7" "Reiniciar o sistema" OFF \
 "8" "Abrir Htop" OFF \
 3>&1 1>&2 2>&3)
 status=$?
