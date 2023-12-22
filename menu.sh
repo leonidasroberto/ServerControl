@@ -1,5 +1,5 @@
 #!/bin/bash
-cidade=$(whiptail --title "SERVER CONTROL" --radiolist --cancel-button "Sair" --fb \
+choice=$(whiptail --title "SERVER CONTROL" --radiolist --cancel-button "Sair" --fb \
 "Selecione a opção desejada" 16	 50 8 \
 "1" "Instalar o Xampp" OFF \
 "2" "Abrir o Apache e SQL" OFF \
@@ -13,8 +13,8 @@ cidade=$(whiptail --title "SERVER CONTROL" --radiolist --cancel-button "Sair" --
 status=$?
 if [ $status = 0 ]
 then
-echo $cidade > log 
-./server2
+echo $choice > log 
+./server $choice
 else
 echo "Cancelado"
 fi
