@@ -3,7 +3,7 @@ Gerenciador básico para instalação e ativação do xamp em servidores linux.
 
 # Utilização:
 ```sh
-git clone https://github.com/leonidasroberto/ServerControl;cd ServerControl;sudo chmod 755 server.sh;./server.sh
+git clone https://github.com/leonidasroberto/ServerControl;cd ServerControl;sudo chmod 755 server.sh menu.sh;./menu.sh
 ```
 
 # Tela Principal:
